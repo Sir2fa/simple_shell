@@ -3,9 +3,8 @@
  * add - Add two integers.
  * @num1: The first integer to be added.
  * @num2: The second integer to be added.
- *
  * main - Header function.
- * @void: empty.
+ *
  * Return: The result of added integers
  */
 
@@ -14,7 +13,7 @@
 		return (num1 + num2);
 	}
 
-	int main(void) 
+	int main(void)
 	{
 	return (0);
 	}
