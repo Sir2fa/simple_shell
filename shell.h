@@ -22,7 +22,7 @@
 #define NOT_FOUND 127
 #define PERMISSION_DENIED 126
 #define EXIT_ERROR 2
-#define TOK_D " \t\r\n\a""
+#define TOK_D " \t\r\n\a\""
 extern char **environ;
 
 /**
@@ -98,7 +98,7 @@ char *check_access(char *line_av_1, _list_paths *current);
 void execute_command(char *path, char **av, char **env, int *status);
 void print_env(int *status);
 char *get_process_id();
-char *get-status(int n);
+char *get_status(int n);
 int is_built_in(char *line, char **line_vector, _list_paths *current,
         char *program_shell,
         int counter, int *status, _list_paths *env, char **lines, char *argv);
