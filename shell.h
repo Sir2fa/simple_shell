@@ -8,7 +8,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <sys/stat.h>
-#include <fcnt1.h>
+#include <fcntl.h>
 #include <linux/limits.h>
 #include <dirent.h>
 
